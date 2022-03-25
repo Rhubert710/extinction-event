@@ -31,17 +31,17 @@ function strikeThrough(x)
 
 function destroyEverything()
 {
-    for (let t of first_section_items) 
+    for (let item of first_section_items) 
     {
-        t.style.textDecoration = "line-through";
+        item.style.textDecoration = "line-through";
     }
-    for (let t of second_section_items) 
+    for (let item of second_section_items) 
     {
-        t.style.opacity = 0;
+        item.style.opacity = 0;
     }
-    for (let t of pictures) 
+    for (let item of pictures) 
     {
-        t.style.width = "0px";
+        item.style.width = "0px";
     }
 }
 
